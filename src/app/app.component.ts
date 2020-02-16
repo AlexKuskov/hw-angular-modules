@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hw-angular-modules';
+  title: string = 'hw-angular-modules';
+  textSample: string = 'trunCated donkey cock teXt is rIGht hEre sucker';
 }
